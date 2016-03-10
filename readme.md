@@ -67,7 +67,7 @@ Type: `string`
 
 Type: `array`
 
-Returns all "bad words" found in a JavaScript string. Strips punctuation and preserves capitalization. If none are found, and empty array is returned.
+Returns all "bad words" found in a JavaScript string. Strips punctuation and preserves capitalization. If none are found, an empty array is returned.
 
 <br>
 
