@@ -1,8 +1,29 @@
 # fuhk
 [![npm version](https://img.shields.io/npm/v/fuhk.svg)](https://www.npmjs.com/package/fuhk)
-[![Build Status](https://travis-ci.org/dawsonbotsford/fuhk.svg?branch=master)](https://travis-ci.org/dawsonbotsford/fuhk)
 [![npm download count](http://img.shields.io/npm/dm/fuhk.svg?style=flat)](http://npmjs.org/fuhk)
 [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)
+
+<table>
+  <thead>
+    <tr>
+      <th>Linux</th>
+      <th>OS X</th>
+      <th>Windows</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2" align="center">
+        <a href="https://travis-ci.org/dawsonbotsford/fuhk"><img src="https://api.travis-ci.org/dawsonbotsford/fuhk.svg?branch=master"></a>
+      </td>
+      <td align="center">
+        <a href="https://ci.appveyor.com/project/dawsonbotsford/fuhk"><img src="https://ci.appveyor.com/api/projects/status/6tridf5r7sgn74i7?svg=true"></a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
 
 > returns all "bad words" found in a JavaScript string
 
