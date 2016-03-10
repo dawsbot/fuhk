@@ -1,6 +1,6 @@
 {
   "name": "fuhk",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "returns all &#34;bad words&#34; found in a javascript variable",
   "license": "MIT",
   "homepage": "https://github.com/dawsonbotsford/fuhk#readme",
@@ -43,8 +43,7 @@
     "ava",
     "dawson"
   ],
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "ava": "^0.11.0",
     "xo": "^0.12.1",
