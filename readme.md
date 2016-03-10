@@ -25,7 +25,7 @@
 
 <br>
 
-> returns all "bad words" found in a JavaScript string
+> Return all "bad words" found in a JavaScript string
 
 <br>
 
