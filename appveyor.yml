@@ -7,7 +7,6 @@ environment:
 # Get the latest stable version of Node 0.STABLE.latest (runs after repo cloning)
 install:
   - ps: Install-Product node $env:nodejs_version $env:platform
-  - ps: Start-Process c:\projects\nodegit\vendor\pageant.exe c:\projects\nodegit\vendor\private.ppk
   - cmd: npm install -g node-gyp
   - npm install
 
