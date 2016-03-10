@@ -4,7 +4,7 @@
 [![npm download count](http://img.shields.io/npm/dm/fuhk.svg?style=flat)](http://npmjs.org/fuhk)
 [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)
 
-> returns all &#34;bad words&#34; found in a JavaScript variable
+> returns all "bad words" found in a JavaScript string
 
 <br>
 
@@ -46,7 +46,7 @@ Type: `string`
 
 Type: `array`
 
-Returns all &#34;bad words&#34; found in a JavaScript variable. Strips punctuation and preserves capitalization. If none are found, and empty array is returned.
+Returns all "bad words" found in a JavaScript string. Strips punctuation and preserves capitalization. If none are found, and empty array is returned.
 
 <br>
 
