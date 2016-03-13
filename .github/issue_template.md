@@ -1,17 +1,6 @@
-## My usage
-```js
-<replace with how you tried using it>
-```
+[Tell the world about what's wrong here]
 
-<br>
+## System info
+`sist node shell` (Download sist [here](https://github.com/dawsonbotsford/sist)):
 
-## What I've tried
-<replace with what you've tried>
-
-<br>
-
-## System information
-[sist](https://github.com/dawsonbotsford/sist) output:
-
-<replace with sist output>
-
+[sist command output here]
