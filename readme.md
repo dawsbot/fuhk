@@ -42,6 +42,8 @@ npm install --save fuhk
 
 ## Usage
 
+#### Node
+
 ```js
 const fuhk = require('fuhk');
 
@@ -50,6 +52,25 @@ fuhk('shit fuck rubber duck');
 
 fuhk('nothing bad here!');
 //=> []
+```
+
+<br>
+
+#### Web
+
+```html
+<script src="https://rawgit.com/dawsonbotsford/fuhk/master/bundle.js"></script>
+<script>
+  alert(fuhk('shit fuck rubber duck'));
+  //=> ['shit', 'fuck']
+</script>
+```
+
+<br>
+
+Or download it with `npm install --save fuhk` and reference it as:
+```html
+<script src="node_modules/fuhk/bundle.js"></script>
 ```
 
 <br>
