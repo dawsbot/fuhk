@@ -27,7 +27,8 @@
   },
   "files": [
     "index.js",
-    "swearWords.json"
+    "swearWords.json",
+    "bundle.js"
   ],
   "keywords": [
     "bad",
