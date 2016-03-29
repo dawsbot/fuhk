@@ -7,13 +7,13 @@ test('valid args', t => {
   }, TypeError);
   t.throws(() => {
     fn();
-  }, Error);
+  }, TypeError);
 });
 
 test('basic string', t => {
   t.same(fn(''), []);
   t.same(fn('apple'), []);
-  t.same(fn('fuck'), ['fuck']);
+  t.same(fn('fuckit'), ['fuck']);
   t.same(fn('foot fetish'), ['foot fetish']);
   t.same(fn('shit fuck rubber duck'), ['shit', 'fuck']);
   t.same(fn('Shit Fuck! rubber duck'), ['Shit', 'Fuck']);
