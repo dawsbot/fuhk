@@ -1,6 +1,6 @@
 {
   "name": "fuhk",
-  "version": "1.2.1",
+  "version": "1.3.0",
   "description": "returns all \"bad words\" found in a javascript string",
   "license": "MIT",
   "homepage": "https://github.com/dawsonbotsford/fuhk#readme",
