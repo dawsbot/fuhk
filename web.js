@@ -1,1 +1,1 @@
-global.fuhk = require('./index')
+global.fuhk = require('./index');
