@@ -22,7 +22,7 @@
   "scripts": {
     "test": "xo && ava",
     "bundle": "webpack --config webpack.conf.js",
-    "precommit": "npm run bundle"
+    "precommit": "npm test && npm run bundle"
   },
   "files": [
     "index.js",
@@ -46,7 +46,6 @@
     "dawson"
   ],
   "dependencies": {
-    "webpack": "^1.12.14"
   },
   "devDependencies": {
     "ava": "^0.11.0",
@@ -56,6 +55,7 @@
     "eslint-config-xo-space": "^0.8.0",
     "husky": "^0.11.4",
     "json-loader": "^0.5.4",
+    "webpack": "^1.12.14",
     "xo": "^0.12.1"
   },
   "xo": {
