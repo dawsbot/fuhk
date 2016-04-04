@@ -13,6 +13,8 @@ test('valid args', t => {
 test('basic string', t => {
   t.same(fn(''), []);
   t.same(fn('apple'), []);
+  t.same(fn('sass'), []);
+  t.same(fn('passphrase'), []);
   t.same(fn('fuck'), ['fuck']);
   t.same(fn('foot fetish'), ['foot fetish']);
   t.same(fn('shit fuck rubber duck'), ['shit', 'fuck']);
