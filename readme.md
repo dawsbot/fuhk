@@ -14,7 +14,7 @@
   <tbody>
     <tr>
       <td colspan="2" align="center">
-        <a href="https://travis-ci.org/dawsonbotsford/fuhk"><img src="https://api.travis-ci.org/dawsonbotsford/fuhk.svg?branch=master"></a>
+        <a href="https://travis-ci.org/dawsbot/fuhk"><img src="https://api.travis-ci.org/dawsbot/fuhk.svg?branch=master"></a>
       </td>
       <td align="center">
         <a href="https://ci.appveyor.com/project/dawsonbotsford/fuhk"><img src="https://ci.appveyor.com/api/projects/status/6tridf5r7sgn74i7?svg=true"></a>
@@ -30,15 +30,6 @@
 <br>
 
 **Warning - parts of this are NSFW due to the nature of the module**
-
-## Install
-
-```
-npm install --save fuhk
-```
-
-
-<br>
 
 ## Usage
 
@@ -71,6 +62,14 @@ fuhk('nothing bad here!');
 Or download it with `npm install --save fuhk` and reference it as:
 ```html
 <script src="node_modules/fuhk/bundle.js"></script>
+```
+
+<br>
+
+## Install
+
+```
+npm install --save fuhk
 ```
 
 <br>
